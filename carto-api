@@ -21,7 +21,7 @@
     var map = L.map('map').setView([-25.4284, -49.2733], 13);
 
     // 2. Adiciona o Tile Layer com a chave de API (CartoDB.Voyager)
-    L.tileLayer.provider('Thunderforest.Outdoors', {
+    L.tileLayer.provider('CartoDB.Voyager', {
       apikey: 'cb1_3g9a_1_daf34395e087ee419bcfc2f2'
     }).addTo(map);
   </script>
